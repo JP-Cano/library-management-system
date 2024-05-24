@@ -1,0 +1,30 @@
+### Books borrowed to user
+GET https://firm-protocol-423315-p9.uc.r.appspot.com/borrows/search?u=038f793e-95d2-4e38-ba59-193b759b5c53
+
+### Register borrow
+POST https://firm-protocol-423315-p9.uc.r.appspot.com/borrows/register
+Content-Type: application/json
+
+{
+  "bookId": "7967376d-8a6e-4d2d-8aef-53af682dabbc",
+  "userId": "038f793e-95d2-4e38-ba59-193b759b5c53"
+}
+
+### Return book
+POST https://firm-protocol-423315-p9.uc.r.appspot.com/borrows/return
+Content-Type: application/json
+
+{
+  "borrowId": "f0ecc811-db35-4614-9114-b0589da6df15",
+  "bookId": "4dd2e8e8-f70a-4eaa-ab45-436c709dc406"
+}
+
+
+### Get All Authors
+GET https://firm-protocol-423315-p9.uc.r.appspot.com/authors
+
+### Get All available books
+GET https://firm-protocol-423315-p9.uc.r.appspot.com/books
+
+### Find All books by Title or Author
+GET https://firm-protocol-423315-p9.uc.r.appspot.com/books/search?q=sa
