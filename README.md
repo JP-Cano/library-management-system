@@ -1,4 +1,3 @@
-```markdown
 # Library Management System
 
 This is a simple library management system built with Go. It provides routes to manage books, borrows, and authors.
@@ -84,4 +83,3 @@ git clone https://github.com/juanPabloCano/library-management-system.git
 cd library-management-system
 go mod download
 go run ./src/.
-```
